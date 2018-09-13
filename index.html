@@ -13,21 +13,43 @@
         <link rel="stylesheet" href="assets/css/reset.css">
     </head>
     <body>
-        <div id="game">
-            <h1 id="header-text"></h1>
-            <div id="directions-text"></div>
-            <div id="target-score"></div>
-            <section id="wins-losses-box">
-                <div id="wins-text"></div>
-                <div id="losses-text"></div>
+        <div class="conatiner" id="game">
+            <div class="row">
+                <h1 class="column-md-2" id="header-text"></h1>
+            </div>
+            <div class="row">
+                <div class="column-md-6" id="directions-background">
+                    <p id="directions-text"></p>
+                </div>
+            </div>
+            <section class="row">
+                <div class="column-md-2" id="target-score"></div>
+                <div class="column-md-1" id="wins-losses-box">
+                    <p id="wins-text"></p><br>
+                    <p id="losses-text"></p>
+                </div>
             </section>
-            <div id="image1"></div>
-            <div id="image2"></div>
-            <div id="image3"></div>
-            <div id="image4"></div>
-            <div id="image5"></div>
-            <div id="total-score-text"></div>
-            <div id="score-text"></div>
+            <div class="row" id="images">
+                <div class="column-md-1">
+                    <button class="btn btn-choice" id="btn-1"></button>
+                </div>
+                <div class="column-md-1">
+                    <button class="btn btn-choice" id="btn-2"></button>
+                </div>
+                <div class="column-md-1">
+                    <button class="btn btn-choice" id="btn-3"></button>
+                </div>
+                <div class="column-md-1">
+                    <button class="btn btn-choice" id="btn-4"></button>
+                </div>
+                <div class="column-md-1">
+                    <button class="btn btn-choice" id="btn-5"></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column-md-2" id="total-score-text"></div>
+                <div class="column-md-2" id="score-text"></div>
+            </div>
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
